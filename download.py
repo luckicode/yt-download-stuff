@@ -39,7 +39,7 @@ def is_playlist(url):
 link = argv[1]
 download_format = argv[2].lower()  # 'mp3' or 'mp4'
 
-download_path = r"D:\Users\Isaac\Desktop\yt downloads"
+download_path = r"D:\Isaac\yt downloads"
 download_path = download_path.strip()  # Remove any trailing spaces
 
 # Create the download directory if it doesn't exist
